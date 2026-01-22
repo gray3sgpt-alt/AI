@@ -2132,3 +2132,15 @@
 /home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/build.make	55
 /home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/compiler_depend.ts	55
 /home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/minixml.c.o.d	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/compiler_depend.internal	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/DependInfo.cmake	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/minixmlvalid.c.o.d	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/minixml.c.o	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/progress.make	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/cmake_clean.cmake	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/link.txt	22
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/compiler_depend.make	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/minixmlvalid.c.o	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/flags.make	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/minixmlvalid.dir/depend.make	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/listdevices.dir/build.make	55
