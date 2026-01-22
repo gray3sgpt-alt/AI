@@ -16,9 +16,15 @@ if [ ! -d ".git" ]; then
     exit 1
 fi
 
+# Determine the default branch name (master or main)
+DEFAULT_BRANCH=$(git symbolic-ref --short HEAD 2>/dev/null || echo "master")
+
+# Configure git to handle pull properly to avoid divergent branches error
+git config pull.rebase false
+
 # Pull latest changes from remote to avoid conflicts
 echo "Pulling latest changes from remote repository..."
-git pull origin main --no-edit || git pull origin master --no-edit
+git pull origin "$DEFAULT_BRANCH" --no-edit
 
 # Add all changes (including untracked files)
 echo "Adding all changes to git..."
@@ -32,11 +38,11 @@ else
     COMMIT_MESSAGE="Auto-backup: $(date '+%Y-%m-%d %H:%M:%S')"
     echo "Creating commit with message: $COMMIT_MESSAGE"
     git commit -m "$COMMIT_MESSAGE"
-    
-    # Push changes to remote repository
+
+    # Push changes to remote repository using the correct branch name
     echo "Pushing changes to remote repository..."
-    git push origin main || git push origin master
-    
+    git push origin "$DEFAULT_BRANCH"
+
     echo "Backup completed successfully!"
 fi
 
