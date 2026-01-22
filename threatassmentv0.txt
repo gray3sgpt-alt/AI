@@ -2156,3 +2156,6 @@
 /home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/listdevices.dir/depend.make	55
 /home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/testaddr_is_reserved.dir/addr_is_reserved.c.o.d	55
 /home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/testaddr_is_reserved.dir/build.make	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/testaddr_is_reserved.dir/compiler_depend.ts	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/testaddr_is_reserved.dir/compiler_depend.internal	55
+/home/sag/sw/mine/Monero/monero-gui/build/release/monero/external/miniupnp/miniupnpc/CMakeFiles/testaddr_is_reserved.dir/DependInfo.cmake	55
