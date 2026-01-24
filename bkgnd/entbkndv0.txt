@@ -1,0 +1,70 @@
+Google "how do I install qwen in local mode"
+
+AI Overview
+To install
+Qwen Code on Ubuntu, you can use npm (Node Package Manager) or install it from source. The npm method is generally recommended for ease of use. 
+Prerequisites
+Before installation, ensure you have Node.js version 20 or higher installed on your Ubuntu system. 
+You can check your current Node.js version by running:
+bash
+
+node -v
+
+If you need to install or update Node.js, you can use the following command to install the latest version via the Node Version Manager (nvm): 
+bash
+
+curl -o- https://raw.githubusercontent.com | bash
+# Close and reopen your terminal, then install Node.js 20+
+nvm install node
+
+Installation Steps
+Choose one of the following methods:
+Method 1: Install using NPM (Recommended) 
+This command globally installs the Qwen Code CLI tool, making the qwen command available from any terminal location. 
+bash
+
+npm install -g @qwen-code/qwen-code@latest
+
+Method 2: Install from Source
+If you prefer to install from the GitHub repository, follow these steps: 
+
+    Clone the repository:
+    bash
+
+    git clone https://github.com/QwenLM/qwen-code.git
+    cd qwen-code
+
+    Install dependencies:
+    bash
+
+    npm install
+    npm install -g .
+
+     
+
+Verification and Configuration
+
+    Verify the installation by checking the version:
+    bash
+
+    qwen --version
+
+    This should display the installed version of Qwen Code.
+    Start Qwen Code in interactive mode:
+    bash
+
+    qwen
+
+    Authenticate: On the first run, you will be prompted to sign in using Qwen OAuth or an OpenAI-compatible API key.
+        For Qwen OAuth, type /auth within the Qwen Code prompt and follow the browser authentication flow.
+        Alternatively, set environment variables in your terminal before running qwen:
+        bash
+
+        export OPENAI_API_KEY="your-api-key-here"
+        # Optional: For Qwen-specific models, use their base URL and model name
+        export OPENAI_BASE_URL="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+        export OPENAI_MODEL="qwen3-coder-plus"
+
+         
+
+You can now start using Qwen Code to generate and refactor code, generate unit tests, and perform other coding tasks directly from your terminal.

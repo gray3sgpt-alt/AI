@@ -1,0 +1,145 @@
+Script started on 2026-01-23 11:25:57-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="135" LINES="29"]
+bash: /bin/brew: No such file or directory
+bash: /bin/brew: No such file or directory
+bash: home/linuxbrew/.linuxbrew/bin/brew: No such file or directory
+bash: home/linuxbrew/.linuxbrew/bin/brew: No such file or directory
+bash: home/linuxbrew/.linuxbrew/bin/brew: No such file or directory
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ ^C[?2004l
+[?2004h[?2004l
+
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ ^C[?2004l
+[?2004h[?2004l
+
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ [7m tee ~/Downloads/AI/qweninstalldetailsv0.txt[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C tee ~/Downloads/AI/qweninstalldetailsv0.txt
+
+[A
+[?2004l
+^C
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ pa[Ks
+[?2004l
+    PID TTY          TIME CMD
+  12257 pts/2    00:00:00 bash
+  12891 pts/2    00:00:00 ps
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ [7mnpm install -g @qwen/cli[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[Cnpm install -g @qwen/cli
+[?2004l
+⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K[1mnpm[22m [96mnotice[39m Access token expired or revoked. Please try logging in again.
+⠦[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m E404
+⠧[1G[0K[1mnpm[22m [31merror[39m [94m404[39m Not Found - GET https://registry.npmjs.org/@qwen%2fcli - Not found
+⠧[1G[0K[1mnpm[22m [31merror[39m [94m404[39m
+⠧[1G[0K[1mnpm[22m [31merror[39m [94m404[39m  The requested resource '@qwen/cli@*' could not be found or you do not have permission to access it.
+⠧[1G[0K[1mnpm[22m [31merror[39m [94m404[39m
+⠧[1G[0K[1mnpm[22m [31merror[39m [94m404[39m Note that you can also install from a
+⠧[1G[0K[1mnpm[22m [31merror[39m [94m404[39m tarball, folder, http url, or git url.
+⠧[1G[0K[1mnpm[22m [31merror[39m A complete log of this run can be found in: /home/sag/.npm/_logs/2026-01-23T18_46_18_275Z-debug-0.log
+⠧[1G[0K[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ npm install -g @qwen/cli
+[C[C[C[C[C[C[C[C[C[C[C[C[Cps[Kqwenbashrewqwenexitotqwenbrewexitbashrewashrewqwen --version[2Pcd qwen-codegit clone https://github.com/QwenLM/qwen-code.git
+[?2004l
+fatal: destination path 'qwen-code' already exists and is not an empty directory.
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ git clone https://github.com/QwenLM/qwen-code.git[1P https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl https://github.com/QwenLM/qwen-code.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+fatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ ls
+[?2004l
+[0m[01;34mandroid-sdk[0m  [01;34mDocuments[0m  [01;32minstall_android_emulator.sh[0m  [01;34mPictures[0m  [01;34mqwen-code[0m  [01;34msnap[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+[01;34mDesktop[0m      [01;34mDownloads[0m  [01;34mMusic[0m                        [01;34mPublic[0m    [01;34msag[0m        [01;34msw[0m    [01;34mvenv[0m
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ d [K[Kcd h[K/hm[Kome/sag
+[?2004l
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ ls
+[?2004l
+[0m[01;34mandroid-sdk[0m  [01;34mDocuments[0m  [01;32minstall_android_emulator.sh[0m  [01;34mPictures[0m  [01;34mqwen-code[0m  [01;34msnap[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+[01;34mDesktop[0m      [01;34mDownloads[0m  [01;34mMusic[0m                        [01;34mPublic[0m    [01;34msag[0m        [01;34msw[0m    [01;34mvenv[0m
+[?2004h]0;sag@hp-15: ~[01;32msag@hp-15[00m:[01;34m~[00m$ cd qwen-code
+[?2004l
+[?2004h]0;sag@hp-15: ~/qwen-code[01;32msag@hp-15[00m:[01;34m~/qwen-code[00m$ git pul[K[K[K[K[K[K[Kcd qwen-codels[Kcd /home/sagls[Kcd qwen-codels[Kcd /home/sagls[Kgit pull https://github.com/QwenLM/qwen-code.git
+[?2004l
+remote: Enumerating objects: 56, done.[K
+remote: Counting objects:   2% (1/34)[K
+remote: Counting objects:   5% (2/34)[K
+remote: Counting objects:   8% (3/34)[K
+remote: Counting objects:  11% (4/34)[K
+remote: Counting objects:  14% (5/34)[K
+remote: Counting objects:  17% (6/34)[K
+remote: Counting objects:  20% (7/34)[K
+remote: Counting objects:  23% (8/34)[K
+remote: Counting objects:  26% (9/34)[K
+remote: Counting objects:  29% (10/34)[K
+remote: Counting objects:  32% (11/34)[K
+remote: Counting objects:  35% (12/34)[K
+remote: Counting objects:  38% (13/34)[K
+remote: Counting objects:  41% (14/34)[K
+remote: Counting objects:  44% (15/34)[K
+remote: Counting objects:  47% (16/34)[K
+remote: Counting objects:  50% (17/34)[K
+remote: Counting objects:  52% (18/34)[K
+remote: Counting objects:  55% (19/34)[K
+remote: Counting objects:  58% (20/34)[K
+remote: Counting objects:  61% (21/34)[K
+remote: Counting objects:  64% (22/34)[K
+remote: Counting objects:  67% (23/34)[K
+remote: Counting objects:  70% (24/34)[K
+remote: Counting objects:  73% (25/34)[K
+remote: Counting objects:  76% (26/34)[K
+remote: Counting objects:  79% (27/34)[K
+remote: Counting objects:  82% (28/34)[K
+remote: Counting objects:  85% (29/34)[K
+remote: Counting objects:  88% (30/34)[K
+remote: Counting objects:  91% (31/34)[K
+remote: Counting objects:  94% (32/34)[K
+remote: Counting objects:  97% (33/34)[K
+remote: Counting objects: 100% (34/34)[K
+remote: Counting objects: 100% (34/34), done.[K
+remote: Compressing objects:   6% (1/15)[K
+remote: Compressing objects:  13% (2/15)[K
+remote: Compressing objects:  20% (3/15)[K
+remote: Compressing objects:  26% (4/15)[K
+remote: Compressing objects:  33% (5/15)[K
+remote: Compressing objects:  40% (6/15)[K
+remote: Compressing objects:  46% (7/15)[K
+remote: Compressing objects:  53% (8/15)[K
+remote: Compressing objects:  60% (9/15)[K
+remote: Compressing objects:  66% (10/15)[K
+remote: Compressing objects:  73% (11/15)[K
+remote: Compressing objects:  80% (12/15)[K
+remote: Compressing objects:  86% (13/15)[K
+remote: Compressing objects:  93% (14/15)[K
+remote: Compressing objects: 100% (15/15)[K
+remote: Compressing objects: 100% (15/15), done.[K
+remote: Total 56 (delta 22), reused 19 (delta 19), pack-reused 22 (from 3)[K
+Unpacking objects:   1% (1/56)
+Unpacking objects:   3% (2/56)
+Unpacking objects:   5% (3/56)
+Unpacking objects:   7% (4/56)
+Unpacking objects:   8% (5/56)
+Unpacking objects:  10% (6/56)
+Unpacking objects:  12% (7/56)
+Unpacking objects:  14% (8/56)
+Unpacking objects:  16% (9/56)
+Unpacking objects:  17% (10/56)
+Unpacking objects:  19% (11/56)
+Unpacking objects:  21% (12/56)
+Unpacking objects:  23% (13/56)
+Unpacking objects:  25% (14/56)
+Unpacking objects:  26% (15/56)
+Unpacking objects:  28% (16/56)
+Unpacking objects:  30% (17/56)
+Unpacking objects:  32% (18/56)
+Unpacking objects:  33% (19/56)
+Unpacking objects:  35% (20/56)
+Unpacking objects:  37% (21/56)
+Unpacking objects:  39% (22/56)
+Unpacking objects:  41% (23/56)
+Unpacking objects:  42% (24/56)
+Unpacking objects:  44% (25/56)
+Unpacking 

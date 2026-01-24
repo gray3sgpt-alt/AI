@@ -1,0 +1,11 @@
+To run a shell command properly in Qwen, use the run_shell_command tool with these parameters:
+
+1. command - the actual shell command to execute
+2. is_background - whether to run in background (true/false) 
+3. description - a brief description of what the command does (optional but recommended)
+
+For your script, use:
+run_shell_command(command="bash ~/Downloads/AI/gitpushv0.sh", is_background=false, description="Execute git push script")
+
+Or if the script needs to be made executable first:
+run_shell_command(command="chmod +x ~/Downloads/AI/gitpushv0.sh && ~/Downloads/AI/gitpushv0.sh", is_background=false, description="Make script executable and run git push script")
