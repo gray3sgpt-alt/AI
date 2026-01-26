@@ -1,0 +1,11 @@
+Instructions for processing all *demo_main projects:
+
+1. Go through all of the *demo_main projects and minimize the effect of moving or renaming the project folder
+2. If possible make sure that all files in the project builds are contained in the project tree
+3. Build and run all of the *demo_main projects
+4. After building and testing each project, make sure that the project files have a reasonable amount of documentation in either the files themselves or the project "README file". Write the documentation at a level appropriate to the general nature of a source for the reference online documentation for the individual lines of code, providing links to said documentation instead of explicit documentation text where appropriate.
+5. If a project builds and runs without any detectable errors and has appropriate documentation, move the project tree to a /working subfolder off the existing project tree
+6. If I can't get the project to build and run without detectable errors or lacks appropriate documentation, move it to a /broken subfolder off the existing project tree
+7. Process all projects under *demo_main in the same manner
+8. If you find that the project demo type does not match the project filespec demo type, you'll have to make the appropriate arrangements to either move the project or change the project demo type or both. This depends on whether there is a matching project with the same project type as the specific project being processed. i.e. whether moving the project to the proper project filespec demo type would overwrite an existing project or not. if not, clone the project properly and fix both versions of the project. If so, check the other projects in the target filespec demo type and add "a, b, c" etc as appropriate to the target project spec name so that the cloned project filespec is unique.
+9. Only build and test each project once before moving it to either a /broken or /working subfolder. That can be done just before the documentation step, near the end of the list of active prompt steps.
